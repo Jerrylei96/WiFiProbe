@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>hdfs://master:9000/root/hive/warehouse</value>
+        <description>location of default database for the warehouse</description>
+    </property>
+    <property>
+        <name>hive.exec.scratchdir</name>
+        <value>hdfs://master:9000/root/hive</value>
+        <description>Scratch space for Hive jobs</description>
+    </property>
+    <property>
+        <name>hive.exec.local.scratchdir</name>
+        <value>hdfs://master:9000/root/hive</value>
+        <description>Local scratch space for Hive jobs</description>
+    </property>
+
+    <!-- 该属性为空表示嵌入模式或本地模式，否则为远程模式 -->
+    <property>
+        <name>hive.metastore.uris</name>
+        <value>thrift://master:9083</value>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://master:3306/hive?createDatabaseIfNotExist=true</value>
+        <description>JDBC connect string for a JDBC metastore</description>
+    </property>
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.jdbc.Driver</value>
+        <description>Driver class name for a JDBC metastore</description>
+    </property>
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>root</value>
+        <description>username to use against metastore database</description>
+    </property>
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>123456</value>
+        <description>password to use against metastore database</description>
+    </property>
+    <property>
+        <name>hive.metastore.schema.verification</name>
+        <value>false</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>master:2181;slave1:2181;slave2:2181</value>
+        <description>
+        </description>
+    </property>
+</configuration>

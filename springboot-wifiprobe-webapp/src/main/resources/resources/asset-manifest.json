@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ee42b717.chunk.js",
+    "main.js.map": "/static/js/main.ee42b717.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.01639a7c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.01639a7c.js.map",
+    "static/css/2.15f1871d.chunk.css": "/static/css/2.15f1871d.chunk.css",
+    "static/js/2.22ba5638.chunk.js": "/static/js/2.22ba5638.chunk.js",
+    "static/js/2.22ba5638.chunk.js.map": "/static/js/2.22ba5638.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6c1690a8be72955f1b84503911c6f0dd.js": "/precache-manifest.6c1690a8be72955f1b84503911c6f0dd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.15f1871d.chunk.css.map": "/static/css/2.15f1871d.chunk.css.map",
+    "static/media/404.png": "/static/media/404.6d307ee8.png",
+    "static/media/logo.png": "/static/media/logo.e281cb1e.png",
+    "static/media/qq.png": "/static/media/qq.f46d5d8b.png",
+    "static/media/wechat.png": "/static/media/wechat.5511a728.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01639a7c.js",
+    "static/css/2.15f1871d.chunk.css",
+    "static/js/2.22ba5638.chunk.js",
+    "static/js/main.ee42b717.chunk.js"
+  ]
+}
